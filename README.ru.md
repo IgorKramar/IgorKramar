@@ -3,7 +3,7 @@
 <p><strong>Senior Fullstack Engineer</strong></p>
 <p>От интерфейса до инфраструктуры.</p>
 <p><a href="https://github.com/IgorKramar">English</a> · <strong>Русский</strong></p>
-<p><a href="mailto:i@ikramar.ru">Почта</a> · <a href="https://t.me/spider_HH_jerusalem">Telegram</a> · <a href="#избранные-публичные-проекты">Избранные проекты</a></p>
+<p><a href="mailto:i@ikramar.ru">Почта</a> · <a href="https://t.me/spider_HH_jerusalem">Telegram</a> · <a href="#избранные-публичные-проекты">Избранные проекты</a> · <a href="#ещё-инструменты-и-интеграции">Инструменты</a> · <a href="#исследования-и-базы-знаний">Исследования</a></p>
 </div>
 
 ---
@@ -14,7 +14,7 @@
 
 ## Избранные публичные проекты
 
-Шесть проектов, показывающих разные стороны инженерной работы. Выпущенные инструменты, демо и исследования обозначены отдельно.
+Десять проектов — от терминальных приложений и веб-сервисов до генерации паролей и игровых модов. В каждой карточке — назначение, стек и текущая стадия.
 
 <table>
 <tr>
@@ -71,7 +71,53 @@
 <p><a href="https://github.com/IgorKramar/ludoscope">Код</a> · <a href="https://github.com/IgorKramar/ludoscope/blob/main/README.en.md">EN</a> · <a href="https://github.com/IgorKramar/ludoscope/blob/main/README.md">RU</a></p>
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<sub>07 · NOTION В ТЕРМИНАЛЕ</sub>
+<h3><a href="https://github.com/IgorKramar/zottion">zottion</a></h3>
+<p>Неофициальный TUI и CLI для Notion: Vim-редактирование блоков, сохраняемые локальные черновики, поиск через SQLite и обработка конфликтов.</p>
+<p><code>Rust · Ratatui · SQLite · Notion API</code></p>
+<p><sub>v0.1.0 · сборки для Linux / macOS</sub></p>
+<p><a href="https://github.com/IgorKramar/zottion">Код</a> · <a href="https://github.com/IgorKramar/zottion/blob/main/README.md">EN</a> · <a href="https://github.com/IgorKramar/zottion/blob/main/README.ru.md">RU</a></p>
+</td>
+<td width="50%" valign="top">
+<sub>08 · НАВИГАЦИЯ ПО TUI-ИНСТРУМЕНТАМ</sub>
+<h3><a href="https://github.com/IgorKramar/tui-atlas">TUI Atlas</a></h3>
+<p>Каталог терминальных инструментов с поиском, шпаргалками, примерами команд, локальной справкой и запуском приложений. Для изучения каталога устанавливать эти приложения не нужно.</p>
+<p><code>Rust · Ratatui · CLI</code></p>
+<p><sub>v0.2.0 · Linux x86_64 / ARM64</sub></p>
+<p><a href="https://github.com/IgorKramar/tui-atlas">Код</a> · <a href="https://github.com/IgorKramar/tui-atlas/blob/main/README.md">EN</a> · <a href="https://github.com/IgorKramar/tui-atlas/blob/main/README.ru.md">RU</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub>09 · ГЕНЕРАЦИЯ ПАРОЛЕЙ</sub>
+<h3><a href="https://github.com/IgorKramar/secure-password-generator">Secure Password Generator</a></h3>
+<p>Библиотека и CLI для случайных паролей, фраз по словарю EFF и генерации под правила сайтов. Расчёт энтропии и проверки собранного пакета; без runtime-зависимостей.</p>
+<p><code>TypeScript · Web Crypto · Node.js CLI</code></p>
+<p><sub>Новые режимы реализованы в исходниках · ещё не выпущены</sub></p>
+<p><a href="https://github.com/IgorKramar/secure-password-generator">Код</a> · <a href="https://github.com/IgorKramar/secure-password-generator/blob/main/README.md">EN</a> · <a href="https://github.com/IgorKramar/secure-password-generator/blob/main/README.ru.md">RU</a></p>
+</td>
+<td width="50%" valign="top">
+<sub>10 · ИГРОВЫЕ МОДЫ И МИГРАЦИИ</sub>
+<h3><a href="https://github.com/IgorKramar/HydrocraftReinvented">Hydrocraft Reinvented</a></h3>
+<p>Порт Hydrocraft на Project Zomboid B42: миграция рецептов, слой совместимости на Lua, русская локализация и Python-инструменты аудита контента и производственных цепочек.</p>
+<p><code>Lua · Python · Project Zomboid B42</code></p>
+<p><sub>Порт на B42 · авторство оригинала и результаты проверок указаны</sub></p>
+<p><a href="https://github.com/IgorKramar/HydrocraftReinvented">Код</a> · <a href="https://github.com/IgorKramar/HydrocraftReinvented/blob/main/README.md#english">EN</a> · <a href="https://github.com/IgorKramar/HydrocraftReinvented/blob/main/README.md#russian">RU</a></p>
+</td>
+</tr>
 </table>
+
+## Ещё инструменты и интеграции
+
+| Проект | Что внутри | Стек и статус |
+| :--- | :--- | :--- |
+| **[Kramar Studio Marketplace](https://github.com/Kramar-IT-Studio/kramar-studio-marketplace)** | Плагины архитектуры и продукта для Claude Code: C4, ADR и связанные продуктовые спецификации. | `architect` + `product` |
+| **[KOSINT](https://github.com/IgorKramar/kosint)** | Исследования по открытым источникам с журналом источников и проверкой доказательств. | Claude Code · Python / Bash |
+| **[Omarchy Processes](https://github.com/IgorKramar/omarchy-processes)** | Поиск процессов и портов, переход к окнам и завершение процессов с защитными проверками для Hyprland. | Bash · fzf · Linux |
+| **[Omarchy RU](https://github.com/IgorKramar/omarchy-ru)** | Русские меню и настройка локали, интеграция раскладок и модульные установщики. | Bash · Omarchy |
+| **[Omarchy × SingularityApp](https://github.com/IgorKramar/omarchy-singularity)** | Виджет и всплывающий список задач с общим API-кешем, созданием, переименованием и завершением задач. | QML / JavaScript · в разработке |
 
 ## Как я работаю
 
@@ -89,11 +135,14 @@
 
 В коммерческой работе я создавал **GSM API-платформу с административным React-интерфейсом**, **финансовые и интеграционные подсистемы действующей ERP**, **общие библиотеки UI-компонентов** для нескольких приложений. Исходники работодателей остаются закрытыми; выше — публичные примеры моего инженерного подхода.
 
-## Архитектурные исследования
+## Исследования и базы знаний
 
-**[Zetto](https://github.com/IgorKramar/zetto)** — архитектурное перепроектирование терминальной системы знаний на Rust. Открыты стратегия, записи решений и системный дизайн. **Pre-alpha / стадия проектирования**, не готовый к запуску релиз текущей версии.
-
-Другие Linux-инструменты: [Omarchy Processes](https://github.com/IgorKramar/omarchy-processes) · [Omarchy RU](https://github.com/IgorKramar/omarchy-ru).
+| Проект | Что внутри | Стек и статус |
+| :--- | :--- | :--- |
+| **[Zetto](https://github.com/IgorKramar/zetto)** | Архитектурное перепроектирование терминальной системы знаний: стратегия, записи решений и системный дизайн. | Rust · pre-alpha / проектирование; текущая версия без готового к запуску релиза |
+| **[Life Sim: Ecosystem](https://github.com/IgorKramar/life_sim_ecosystem)** | Настраиваемая визуальная симуляция растений, травоядных и хищников с энергией, размножением и родословными. | Rust / Macroquad · экспериментальная симуляция |
+| **[AI Knowledge Base](https://github.com/IgorKramar/aikb)** | Учебные заметки на русском об AI, промптинге, RAG, эмбеддингах и агентах, распределённые по уровням сложности. | Markdown / VuePress · база знаний |
+| **[Obsidian Second Brain](https://github.com/IgorKramar/obsidian-second-brain-template)** | Переносимое Markdown-хранилище с шаблонами заметок, регулярными обзорами и пакетами контекста для AI. | Obsidian / Templater · публичный шаблон |
 
 ---
 
