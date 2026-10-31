@@ -3,7 +3,7 @@
 <p><strong>Senior Fullstack Engineer</strong></p>
 <p>From interface to infrastructure.</p>
 <p><strong>English</strong> · <a href="https://github.com/IgorKramar/IgorKramar/blob/main/README.ru.md">Русский</a></p>
-<p><a href="mailto:i@ikramar.ru">Email</a> · <a href="https://t.me/spider_HH_jerusalem">Telegram</a> · <a href="#selected-public-work">Selected work</a></p>
+<p><a href="mailto:i@ikramar.ru">Email</a> · <a href="https://t.me/spider_HH_jerusalem">Telegram</a> · <a href="#selected-public-work">Selected work</a> · <a href="#more-tools--integrations">More tools</a> · <a href="#research--knowledge">Research</a></p>
 </div>
 
 ---
@@ -14,7 +14,7 @@ I build web products, design systems and APIs — and take an interest in everyt
 
 ## Selected public work
 
-Six starting points, selected for different aspects of engineering. Release, demo and research stages are kept distinct.
+Ten projects spanning terminal apps, web services, password generation and game modding. Each card shows the purpose, stack and current stage.
 
 <table>
 <tr>
@@ -71,7 +71,53 @@ Six starting points, selected for different aspects of engineering. Release, dem
 <p><a href="https://github.com/IgorKramar/ludoscope">Code</a> · <a href="https://github.com/IgorKramar/ludoscope/blob/main/README.en.md">EN</a> · <a href="https://github.com/IgorKramar/ludoscope/blob/main/README.md">RU</a></p>
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+<sub>07 · NOTION IN THE TERMINAL</sub>
+<h3><a href="https://github.com/IgorKramar/zottion">zottion</a></h3>
+<p>An unofficial Notion TUI and CLI with Vim-style block editing, durable local drafts, SQLite search and conflict handling.</p>
+<p><code>Rust · Ratatui · SQLite · Notion API</code></p>
+<p><sub>v0.1.0 · Linux / macOS builds</sub></p>
+<p><a href="https://github.com/IgorKramar/zottion">Code</a> · <a href="https://github.com/IgorKramar/zottion/blob/main/README.md">EN</a> · <a href="https://github.com/IgorKramar/zottion/blob/main/README.ru.md">RU</a></p>
+</td>
+<td width="50%" valign="top">
+<sub>08 · TERMINAL DISCOVERY</sub>
+<h3><a href="https://github.com/IgorKramar/tui-atlas">TUI Atlas</a></h3>
+<p>A searchable catalog of terminal tools, with cheatsheets, CLI examples, local documentation and a launcher. The embedded catalog works without installing the listed apps.</p>
+<p><code>Rust · Ratatui · CLI</code></p>
+<p><sub>v0.2.0 · Linux x86_64 / ARM64</sub></p>
+<p><a href="https://github.com/IgorKramar/tui-atlas">Code</a> · <a href="https://github.com/IgorKramar/tui-atlas/blob/main/README.md">EN</a> · <a href="https://github.com/IgorKramar/tui-atlas/blob/main/README.ru.md">RU</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<sub>09 · PASSWORD GENERATION</sub>
+<h3><a href="https://github.com/IgorKramar/secure-password-generator">Secure Password Generator</a></h3>
+<p>A library and CLI for random passwords, EFF passphrases and site-policy generation, with entropy calculations and package-level checks. No runtime dependencies.</p>
+<p><code>TypeScript · Web Crypto · Node.js CLI</code></p>
+<p><sub>New modes implemented in source · unreleased</sub></p>
+<p><a href="https://github.com/IgorKramar/secure-password-generator">Code</a> · <a href="https://github.com/IgorKramar/secure-password-generator/blob/main/README.md">EN</a> · <a href="https://github.com/IgorKramar/secure-password-generator/blob/main/README.ru.md">RU</a></p>
+</td>
+<td width="50%" valign="top">
+<sub>10 · GAME MODDING &amp; MIGRATION</sub>
+<h3><a href="https://github.com/IgorKramar/HydrocraftReinvented">Hydrocraft Reinvented</a></h3>
+<p>A port of Hydrocraft to Project Zomboid B42: recipe migration, Lua compatibility bridges, Russian localization and Python tools for auditing content and crafting chains.</p>
+<p><code>Lua · Python · Project Zomboid B42</code></p>
+<p><sub>B42 port · upstream credits and verification documented</sub></p>
+<p><a href="https://github.com/IgorKramar/HydrocraftReinvented">Code</a> · <a href="https://github.com/IgorKramar/HydrocraftReinvented/blob/main/README.md#english">EN</a> · <a href="https://github.com/IgorKramar/HydrocraftReinvented/blob/main/README.md#russian">RU</a></p>
+</td>
+</tr>
 </table>
+
+## More tools & integrations
+
+| Project | What it offers | Stack & stage |
+| :--- | :--- | :--- |
+| **[Kramar Studio Marketplace](https://github.com/Kramar-IT-Studio/kramar-studio-marketplace)** | Architecture and product plugins for Claude Code: C4, ADRs and linked product specifications. | `architect` + `product` |
+| **[KOSINT](https://github.com/IgorKramar/kosint)** | Public-source research workflows with a source journal and evidence review. | Claude Code · Python / Bash |
+| **[Omarchy Processes](https://github.com/IgorKramar/omarchy-processes)** | Process and port search, window focus and guarded process termination for Hyprland. | Bash · fzf · Linux |
+| **[Omarchy RU](https://github.com/IgorKramar/omarchy-ru)** | Russian menus and locale setup, keyboard-layout integration and modular installers. | Bash · Omarchy |
+| **[Omarchy × SingularityApp](https://github.com/IgorKramar/omarchy-singularity)** | A task widget and popup with shared API caching, task creation, renaming and completion. | QML / JavaScript · in development |
 
 ## How I work
 
@@ -89,11 +135,14 @@ Six starting points, selected for different aspects of engineering. Release, dem
 
 My commercial work includes an end-to-end **GSM API platform and React admin interface**, **financial and integration subsystems in an operational ERP**, and **shared UI component libraries** used across applications. Employer source code stays private; the projects above are public examples of my approach.
 
-## Research notebook
+## Research & knowledge
 
-**[Zetto](https://github.com/IgorKramar/zetto)** — architectural redesign of a Rust terminal knowledge-management tool. Strategy, decision records and system design are available. **Pre-alpha / design phase**, not a current runnable release.
-
-More Linux tooling: [Omarchy Processes](https://github.com/IgorKramar/omarchy-processes) · [Omarchy RU](https://github.com/IgorKramar/omarchy-ru).
+| Project | What it offers | Stack & stage |
+| :--- | :--- | :--- |
+| **[Zetto](https://github.com/IgorKramar/zetto)** | Architectural redesign of a terminal knowledge-management tool: strategy, decision records and system design. | Rust · pre-alpha / design phase; no current runnable release |
+| **[Life Sim: Ecosystem](https://github.com/IgorKramar/life_sim_ecosystem)** | A configurable visual simulation of plants, herbivores and predators, with energy, reproduction and genealogy. | Rust / Macroquad · experimental simulation |
+| **[AI Knowledge Base](https://github.com/IgorKramar/aikb)** | Russian-language learning notes on AI, prompting, RAG, embeddings and agents, organized by difficulty. | Markdown / VuePress · knowledge base |
+| **[Obsidian Second Brain](https://github.com/IgorKramar/obsidian-second-brain-template)** | A portable Markdown vault with reusable note templates, periodic reviews and AI context packs. | Obsidian / Templater · public template |
 
 ---
 
